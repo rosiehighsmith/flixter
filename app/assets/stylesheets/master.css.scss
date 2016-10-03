@@ -1,0 +1,17 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+.navbar {
+  border-radius: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+  box-shadow: 0px 1px 3px #2a2a2a;
+  background: url('hexabump.png')
+}
+
+.navbar-inverse a.navbar-brand {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  color: white;
+}
+
+
