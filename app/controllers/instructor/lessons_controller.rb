@@ -1,7 +1,7 @@
 class Instructor::LessonsController < ApplicationController
   before_action :authenticate_user!
   before_action :require_authorized_for_current_section
-  
+
   def new
     @lesson = Lesson.new
   end
@@ -15,7 +15,7 @@ class Instructor::LessonsController < ApplicationController
 
   def require_authorized_for_current_section
     if current_section.course.user != current_user
-      return render text: 'Unauthorized', status: :unauthorized
+      render text: 'Unauthorized', status: :unauthorized
     end
   end
 
