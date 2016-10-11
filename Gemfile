@@ -5,6 +5,9 @@ gem 'sass-rails'
 gem 'rails_12factor', group: :production
 gem 'devise', '>= 3.2.4'
 gem 'simple_form'
+gem 'carrierwave', '>= 1.0.0.beta', '< 2.0'
+gem "figaro"
+gem 'fog'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
